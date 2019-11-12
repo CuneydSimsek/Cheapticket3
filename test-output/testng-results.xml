@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67219" started-at="2019-03-24T02:54:40Z" finished-at="2019-03-24T02:55:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67219" started-at="2019-03-24T02:54:40Z" finished-at="2019-03-24T02:55:48Z">
+      <class name="com.mycompany.qa.tests.MyTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="beforeSuit" is-config="true" duration-ms="61" started-at="2019-03-24T02:54:40Z" finished-at="2019-03-24T02:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="setExtent" is-config="true" duration-ms="927" started-at="2019-03-24T02:54:40Z" finished-at="2019-03-24T02:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="28563" started-at="2019-03-24T02:54:41Z" finished-at="2019-03-24T02:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="oneWayNavigation()[pri:1, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="oneWayNavigation" duration-ms="26818" started-at="2019-03-24T02:55:10Z" finished-at="2019-03-24T02:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayNavigation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="tearDown" is-config="true" duration-ms="10135" started-at="2019-03-24T02:55:37Z" finished-at="2019-03-24T02:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oneWayNavigation status=SUCCESS method=MyTest.oneWayNavigation()[pri:1, instance:com.mycompany.qa.tests.MyTest@8646db9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mycompany.qa.tests.MyTest@8646db9]" name="endReport" is-config="true" duration-ms="741" started-at="2019-03-24T02:55:47Z" finished-at="2019-03-24T02:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.mycompany.qa.tests.MyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
